@@ -1,0 +1,39 @@
+/**index.wxss**/
+.img{
+  width: auto;
+  height: 300px;
+  background-color: #e4e4e4;
+}
+
+.vol-swiper{
+  height: 100%
+}
+.vol-swiper-item {
+  box-sizing: border-box;
+}
+.vol-card{
+  background-color: #fff;
+}
+.vol-card-img{
+  width: 100%;
+}
+.vol-meta {
+  text-align: center;
+  padding: 0 30px;
+  font-size: 14px;
+}
+.vol-authors{
+  color: #888;
+  padding-bottom: 30px;
+}
+.vol-content{
+  text-align: left;
+  line-height: 24px;
+}
+.vol-title {
+  margin: 10px 0;
+  padding: 10px 0;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fff;
+}

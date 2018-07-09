@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class='vol-swiper'>
+    <block wx:for="{{vols}}" wx:for-index="idx" wx:key="{{hpcontent_id}}">
+      <swiper-item class='vol-swiper-item'>
+        <import src="component/volItem.wxml" />
+        <template is="volItem" data="{{item: item}}"></template>
+      </swiper-item>
+    </block>
+     
+  </swiper>
+
+</view>

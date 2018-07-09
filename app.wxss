@@ -1,0 +1,13 @@
+/**app.wxss**/
+page {
+  height: 100%;
+}
+.container {
+  height: 100%;
+  /* display: flex; */
+  /* align-items: center; */
+  box-sizing: border-box;
+  border-top: solid 1px #ebebeb;
+  border-bottom: solid 1px #ebebeb;
+  background-color: #e4e4e4;
+} 

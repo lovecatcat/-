@@ -1,0 +1,13 @@
+<template name="volItem">
+  <view class='vol-card'>
+    <image class='vol-card-img' src='{{item.hp_img_url}}'></image>
+    <view class='vol-meta'>
+      <view class='vol-authors'>摄影 | {{item.image_authors}}</view>
+      <view class='vol-authors vol-content'>{{item.hp_content}}</view>
+      <view class='vol-authors'>{{item.text_authors}}</view>
+    </view>
+  </view>
+  <view class='vol-title'>
+      一个 {{item.hp_title}}
+  </view>
+</template>

@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/reading/reading",
+    "pages/music/music",
+    "pages/movie/movie"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f7f7f7",
+    "navigationBarTitleText": "白止水",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#89bdf7",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home_active.png",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/reading/reading",
+      "iconPath": "image/reading.png",
+      "selectedIconPath": "image/reading_active.png",
+      "text": "阅读"
+    },
+    {
+      "pagePath": "pages/music/music",
+      "iconPath": "image/music.png",
+      "selectedIconPath": "image/music_active.png",
+      "text": "音乐"
+    },
+    {
+      "pagePath": "pages/movie/movie",
+      "iconPath": "image/movie.png",
+      "selectedIconPath": "image/movie_active.png",
+      "text": "电影"
+    }]
+  }
+}
